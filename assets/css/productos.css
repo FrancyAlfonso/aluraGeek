@@ -1,0 +1,104 @@
+.seccion_productos{
+    background-color: #B3E1F3;
+    padding: 3rem 0;
+}
+
+.productos_container{
+    margin: 2rem;
+}
+
+.albumes,
+.lightsticks,
+.photocards{
+    margin: 0 0 2rem 0;
+}
+
+.albumes_head,
+.lightsticks_head,
+.photocards_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.albumes_head_titulo_principal,
+.lightsticks_head_titulo_principal,
+.photocards_head_titulo_principal{
+    font-weight: 700;
+    font-size: 2rem;
+    color: black;
+}
+
+.albumes_head_boton,
+.lightsticks_head_boton,
+.photocards_head_boton{
+    color: #1355F5;
+    font-weight: 800;
+}
+
+.albumes_head_boton::after,
+.lightsticks_head_boton::after,
+.photocards_head_boton::after{
+    content: '→';
+    color: #1355F5;
+    margin-left: 0.6rem;
+}
+/*Debo revisar de donde salen estas clases, ya que no están en el archivo html principal
+.albumes_productos,
+.lightsticks_productos,
+.photocards_productos,
+.productos_admin,
+.productos_similares,
+.productos_index{
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+}
+
+.producto_card_imagen{
+    height: 279px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.producto_card_imagen,
+.producto_card_titulo,
+.producto_card_precio{
+    margin-bottom: 0.5rem;
+}
+
+.producto_card_titulo{
+    color: #1355F5;
+}
+
+.producto_card_precio{
+    font-weight: 800;
+}
+
+.producto_card_boton{
+    color:#1355F5;
+    font-weight: 800;
+}
+
+.productos_resultados_mensaje{
+    height: 30vh;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #1355F5;
+}
+
+@media only screen and (max-width: 767px){
+
+}
+
+@media (min-width:768px) and (max-width:1024px){
+
+    .productos__resultados_mensaje{
+        height: 48vh;
+    }
+
+}*/
+

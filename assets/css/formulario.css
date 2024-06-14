@@ -1,0 +1,147 @@
+.footer_formulario_titulo{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.form_label{
+    margin-bottom: 1rem;
+}
+
+.formulario_input_container{
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.input{
+    background-color: #BBDFF2;
+    border:black;
+    box-sizing: border-box;
+    border-bottom: 1px solid #2A7AE4;
+    padding: 1.3rem 0.5rem 0.5rem;
+    height: 3.25rem;
+    width: 100%;
+    color: black;
+}
+
+.textarea{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input::placeholder{
+    visibility: hidden;
+    color: blue;
+}
+
+input:focus{
+    outline: none;
+}
+
+.input_label {
+	position: absolute;
+	top: 1.375rem;
+	left: 0.5rem;
+	transition: all 0.25s;
+    border-radius: 7px;
+}
+
+.input:not(:placeholder-shown) + .input_label,
+.input:focus + .input_label {
+	font-size: 0.875rem;
+	top: 0.25rem;
+	transition: all 0.25s;
+}
+
+/*.input_container_invalid {
+    margin-bottom: 0.5rem;
+  }
+
+  .input-container_invalid .input {
+	border: 1px solid red;
+	border-radius: 7px;
+}
+
+.input_container_invalid .input-label {
+	color: red;
+}*/
+
+.input_message_error{
+	display: none;
+}
+
+/*.input_container_invalid .input_message_error {
+	color: red;
+	display: block;
+	margin-top: 0.5rem;
+	padding-left: 0.5rem;
+}*/
+
+.textarea{
+    background-color: #BBDFF2;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #2A7AE4;
+    padding: 0.5rem;
+    border-radius: 7px;
+    width: 100%;
+    min-height: 3rem;
+    resize: none;
+}
+
+.formulario_textarea_container{
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.textarea::placeholder{
+    visibility: hidden;
+}
+
+.textarea:focus{
+    outline: none;
+}
+
+.input_label{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    transition: all 0.25s;
+}
+
+/*.textarea_container_invalid{
+    margin-bottom: 0.5rem;
+}
+
+.input-container_invalid .textarea{
+    border: 1px solid red;
+}
+
+.textarea_container_invalid .input_label {
+    color: red;
+}*/
+
+.textarea_mensaje_error{
+    display: none;
+}
+
+/*.textarea_container_invalid .textarea_mensaje_error{
+    display: block;
+    color: red;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}*/
+
+.boton_form{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 2rem;
+        color: black;
+        background-color: #B3E1F3;
+        font-weight: bold;
+        border-radius: 5px;
+    }

@@ -1,0 +1,155 @@
+.input_precio{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input_descripcion{
+    height: 120px;
+}
+
+.imagen{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.imagen_drop{
+    width: 60%;
+    height: 273px;
+    background-color: white;
+    border: 2px dashed #3B6EDA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.imagen_drop_img{
+    width: 25%;
+}
+
+.imagen_drop.active{
+    border: 2px solid #3B6EDA;
+}
+
+.imagen_drop_texto{
+    line-height: 1.4rem;
+}
+
+.texto{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.imagen_boton{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agregar_imagen_boton,
+.imagen_drop_img_mobile{
+    display: none;
+}
+
+.agregar_imagen_boton_texto{
+    border: 1px solid #3B6EDA;
+    padding: 1rem 2rem;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.agregar_imagen_boton_texto:hover{
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.35);
+}
+
+.select_css{
+    display: block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: black;
+    line-height: 1.3;
+    padding: 0.4rem 1.4rem 0.3m 0.8m;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto 2.5rem auto;
+    border: 1px solid #3B6EDA;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.03);
+    border-radius: 0.3em;
+    /*-moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;*/
+    background-color: white;
+    /*background-image
+    linear-gradient(to bottom, #ffffff 0%,#f7f7f7 100%);
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;*/
+}
+
+.select_css::-ms-expand{
+    display: none;
+}
+
+.select_css:hover{
+    border-color: black;
+}
+
+.select_css:focus{
+    border-color: #3B6EDA;
+    color: black;
+    outline: none;
+}
+
+.select_css option{
+    font-weight: normal;
+}
+
+.formulario_login_select{
+    position: relative;
+}
+
+.formulario_login_select p{
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+    padding-left: 0.4rem;
+}
+
+/* ----- Responsivo ------ */
+
+@media (max-width: 600px){
+    .imagen_drop_img_mobile{
+        display: block;
+    }
+
+    .imagen_drop_img{
+        display: none;
+    }
+
+    .imagen{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .imagen_drop{
+        width: 90%;
+    }
+
+    .imagen_boton{
+        width: 100%;
+    }
+}

@@ -1,0 +1,46 @@
+.productos_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.productos_head_titulo_principal{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #545DDA;
+}
+
+.productos_head_boton{
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    color: black;
+    background-color: #545DDA;
+    font-weight: bold;
+    border: black;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.producto_card_imagen{
+    height: 279px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.boton_eliminar{
+    padding-top: 0.6rem;
+    padding-right: 0.8rem;
+    transition: transform 0.2s;
+}
+
+.boton_editar{
+    padding-right: 0.7rem;
+    padding-top: 0.55rem;
+    transition: transform 0.2s;
+}
+
+.boton_eliminar:hover{
+    transform: scale(1.3);
+}

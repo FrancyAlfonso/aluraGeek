@@ -1,0 +1,70 @@
+.header {
+    margin: 1rem auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_info {
+    /*width: 80%;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+.header_input {
+    /*width: 50%;*/
+    margin-left: 2rem;
+    padding: .8rem;
+    background-color: #B3E1F3;
+    border: 1px solid #2A7AE4;
+    border-radius: 5rem;
+    font-size: 16px;
+    outline: none;
+}
+
+.header_lupa {
+    position: relative;
+    left: -35px;
+}
+
+.header_boton {
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    padding: .7rem 2.4rem;
+    border-radius: 5px;
+}
+
+.header_boton:hover{
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.25);
+}
+
+.header__lupa-mobile{
+    display: none;
+}
+
+@media (max-width: 600px){
+    .header_input,
+    .header_lupa{
+        display: none;
+    }
+
+    .header__lupa-mobile{
+        display: block;
+        width: 6%;
+    }
+
+    .header_info{
+        width: 40%;
+    }
+
+    .header_boton{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
